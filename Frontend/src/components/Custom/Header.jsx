@@ -9,7 +9,7 @@ function Header() {
         <div className='p-3 px-5 flex justify-between shadow-md'>
             {/* Logo */}
             <Link to={'/'}>
-                <img src='/headerLogo.svg' className='cursor-pointer' width={300} height={100} />
+                <img src='/logo.svg' className='cursor-pointer' width={100} height={100} />
             </Link>
 
             {isSignedIn ?
